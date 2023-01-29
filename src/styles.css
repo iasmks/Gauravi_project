@@ -1,0 +1,143 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+.progress {
+  width: 100%;
+  background: #499557;
+  animation: animate 5s linear infinite;
+}
+img{
+  width: 450px;
+  margin-left: 150px;
+  padding: 20px;
+}
+h3,p{
+  width: 430px;
+}
+@keyframes animate {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Main Page Css*/
+.button {
+  background-color: #499557; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 320px;
+}
+.heading_text{
+  color: purple;
+}
+
+/*Cards Css Start*/
+.columns {
+  float: left;
+  width: 390px;
+  padding: 8px;
+  padding: 20px;
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: left;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.buttoncard {
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.main_div_cards{
+  margin-left: 220px;
+}
+ul{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.button_card{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 320px;
+    height: 10px;
+}
+i{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #4CAF50;
+}
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+/* Instantly Css Start*/
+.coloumn_head {
+  float: left;
+  width: 220px;
+  padding: 20px;
+}
+.protext{
+  width: 230px;
+}
+.instantly_main{
+  margin-left: 260px;
+  margin-top: 220px;
+}
+.heading_txt_pra{
+  margin-left: -150px;
+  padding: 30px;
+}
